@@ -105,8 +105,8 @@ arduino-int-for-cobot/
 │   ├── README.md                   # Documentation for the main project
 │
 ├── tests/                          # Folder for test sketches
-│   ├── test_IRsensor.ino           # Test sketch for IR sensor
-│   ├── MicSetup-debug.ino 	    # Test sketch for audio sensor
+│   ├── setup_IRsensor_debug.ino    # Test sketch for IR sensor
+│   ├── setup_mic-debug.ino 	    # Test sketch for audio sensor
 │
 └── docs/                           # Documentation and resources
     ├── schematic.png               # Circuit diagram
