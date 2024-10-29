@@ -70,14 +70,14 @@ cd arduino-int-for-cobot
 	
 ## Usage
 
-###Upload the Main Project Sketch
+### Upload the Main Project Sketch
 
 1. Connect your Arduino Uno R3 to your computer.
 2. Open main_project/main_project.ino in the Arduino IDE.
 3. Select the correct Board and Port in Tools.
 4. Click Upload to load the code onto the Arduino.
 
-###Operating the Project
+### Operating the Project
 
    - IR Remote: Control various functions by pressing the IR remote buttons. See the code comments for button functions.
    - Microphone: Sound level is read by the microphone sensor, and the system responds based on sound threshold settings.
