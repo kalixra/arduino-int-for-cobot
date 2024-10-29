@@ -12,7 +12,6 @@ This project configures an Arduino as an interactive control device within a mul
 - [Usage](#usage)
 - [Component Tests](#component-tests)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ---
 
