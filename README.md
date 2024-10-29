@@ -100,15 +100,15 @@ This project includes test sketches for each component in the tests folder. Thes
 ```
 arduino-int-for-cobot/
 │
-├── main_project/
+├── Main_project/
 │   ├── main_project.ino            # Main integrated sketch
 │   ├── README.md                   # Documentation for the main project
 │
-├── tests/                          # Folder for test sketches
+├── Tests/                          # Folder for test sketches
 │   ├── test_IRsensor.ino           # Test sketch for IR sensor
 │   ├── MicSetup-debug.ino 	    # Test sketch for audio sensor
 │
-└── docs/                           # Documentation and resources
+└── Docs/                           # Documentation and resources
     ├── schematic.png               # Circuit diagram
     ├── notes.md                    # Notes on component testing
 ```
