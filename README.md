@@ -18,7 +18,7 @@ This project configures an Arduino as an interactive control device within a mul
 ## project-description
 
 At a high level, the Arduino functions as follows:
-1. **Idle Mode with LED Display**: The Arduino initially runs in an idle mode, displaying status via LEDs until it receives a stimulus signal from the cobot. This signal indicates that the cobot’s program has reached the audio sensor phase, at which point the Arduino activates the audio sensor to monitor audience engagement.
+1. **Idle Mode ~with LED Display~**: The Arduino initially runs in an idle mode, ~displaying status via LEDs~ until it receives a stimulus signal from the cobot. This signal indicates that the cobot’s program has reached the audio sensor phase, at which point the Arduino activates the audio sensor to monitor audience engagement.
 
 2. **Audience Participation Detection**: Once activated by the cobot, the audio sensor monitors sound levels (e.g., clapping or cheering). If the sound threshold is met or exceeded, the Arduino sends a signal to the cobot to initiate the next phase of its automated program.
 
