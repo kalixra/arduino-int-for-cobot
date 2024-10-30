@@ -8,9 +8,9 @@ const int irPin = 11;        // IR receiver connected to digital pin 11
 
 // Threshold and IR Codes - Change each value to match the command values from your ir-system test
 int threshold = 25;          // Initial audio threshold
-const unsigned long V_PLUS_CODE = 0xFF18E7;   // Vol+ button
-const unsigned long V_MINUS_CODE = 0xFF4AB5;  // Vol- button
-const unsigned long NEXT_CODE = 0xFF5AA5;       // Next button
+const unsigned long V_PLUS_CODE = 0x46;   // Vol+ button
+const unsigned long V_MINUS_CODE = 0x15;  // Vol- button
+const unsigned long NEXT_CODE = 0x43;       // Next button
 
 // Initialize IR receiver
 IRrecv irrecv(irPin);
