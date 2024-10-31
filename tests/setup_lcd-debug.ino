@@ -4,8 +4,7 @@
 // Creates an LCD object. Parameters: (rs, enable, d4, d5, d6, d7) RS=12, E=11, D4=5, D5=4, D6=3, D7=2
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
-void setup() 
-{
+void setup() {
     Serial.begin(9600);       // Start serial communication for debugging
     Serial.println("Starting LCD setup...");
 
@@ -18,8 +17,7 @@ void setup()
     Serial.println("LCD screen cleared.");
 }
 
-void loop() 
-{
+void loop() {
     Serial.println("Starting loop...");
 
     // Print a message to the LCD
